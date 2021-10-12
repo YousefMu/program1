@@ -12,17 +12,22 @@ class List {
     init(){
         lst2 = []
         
-        
+        // function to add value .
     }
     func add2(item : toDoList) {
         lst2.append(item)
-        // print(item)
+        
+        // function to update value .
     }
     func edit(index : Int , elemnt : String) {
         lst2 [index].name = elemnt
+        
+        // function to remove value .
     }
     func remov(index :Int) {
         lst2.remove(at: index)
+        
+        // function to display all values .
     }
     func display() {
         for i in lst2 {
