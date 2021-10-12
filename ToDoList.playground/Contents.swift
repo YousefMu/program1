@@ -45,7 +45,7 @@ lst1.add2(item: toDoList(name: "abdullah", age: 199, date: "20/10/2005", isCompl
 
 
 //print(lst1.lst2[3])
-lst1.edit(index: 1, elemnt: "yasser")
+lst1.edit(index: 1, elemnt: "naser")
 lst1.remov(index: 0)
 //print(test1)
 lst1.display()
