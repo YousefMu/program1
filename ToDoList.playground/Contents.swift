@@ -1,3 +1,4 @@
+
 enum Status {
     case Complete
     case notComplete
@@ -47,17 +48,21 @@ class List {
         }
     
     }
+    func filter(){
+        var fil : [Status]
+            
+    }
     }
 
-var test1 = toDoList(task: "Home Work",  date: "16/11/2020", status: .notComplete )
-var test2 = toDoList(task: "Fix The Car",  date: "20/10/2021", status: .Complete)
+var test1 = toDoList(task: "Home Work",  date: "10/10/2021", status: .notComplete )
+var test2 = toDoList(task: "Fix The Car",  date: "11/10/2021", status: .Complete)
 
 var lst1 = List()
 lst1.add2(item: test1)
 lst1.add2(item: test2)
 
-lst1.add2(item: toDoList(task: "Drink Coffee",  date: "20/10/2019", status:.Complete ))
-lst1.add2(item: toDoList(task: "Sleep ",  date: "20/10/2017", status:.notComplete ))
+lst1.add2(item: toDoList(task: "Drink Coffee",  date: "12/10/2021", status:.Complete ))
+lst1.add2(item: toDoList(task: "Visiting My Family ",  date: "13/10/2021", status:.notComplete ))
 
 
 //print(lst1.lst2[3])
